@@ -1,6 +1,6 @@
 # keycloak-social-lark
 
-将飞书做为Keycloak身份提供商（IDP）
+将飞书做为Keycloak身份提供商（IDP）, 采用JDK17, 支持的keycloak版本23.0.4
 
 需要在飞书开发者后台添加以下权限，并且需要发布应用
 - 以应用身份读取通讯录
@@ -30,7 +30,7 @@
 ```bash
 mvn clean package
 cp target/*.jar _KEYCLOAK_HOME_/providers/
-`
+```
 
 # FeishuIdentityProvider 说明
 飞书做为Keycloak IDP 身份提供商，在流程操作上有些麻烦，具体参考: https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/authen-v1/login-overview
