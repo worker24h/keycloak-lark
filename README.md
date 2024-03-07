@@ -52,3 +52,6 @@ cp target/*.jar _KEYCLOAK_HOME_/providers/
 ![Alt text](image-1.png)
 
 ![Alt text](image-2.png)
+
+# 飞书重定向设置
+![Alt text](image-3.jpeg)
